@@ -8,7 +8,6 @@ public class AnagramString {
         Arrays.sort(ch);
         return new String(ch);
     }
-
 public static boolean checkAnagramString(String str1, String str2 ){
     if(str1.length()!=str2.length()){
         return false;
@@ -24,9 +23,8 @@ public static boolean checkAnagramString(String str1, String str2 ){
 }
 public static void main(String[] args) {
     String str1="CAT";
-    String str2="ACT";
-    boolean isAnagram=checkAnagramString(str1, str2);
-    if(isAnagram){
+    String str2="TAC";
+    if(checkAnagramString(str1, str2)){
         System.out.println("The strings are in anagram.");
     }else{
         System.out.println("The strings  are not  in anagram.");
