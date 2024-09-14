@@ -13,14 +13,14 @@ public class MaximumOccuringCharacter {
             }
             if(cnt>maxfreq){
                 maxfreq=cnt;
-                ans=str.charAt(i);
+                ans=arr[i];
             }
         }
         return ans;
 
     }
     public static void main(String[] args) {
-        String str ="Java is a high level Programming Language";
+        String str ="Java Java";
         System.out.println("The max occuring character in the string is:"+maxOccuringChar(str));
     }
 }

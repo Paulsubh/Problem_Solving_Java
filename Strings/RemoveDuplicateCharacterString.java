@@ -19,7 +19,7 @@ public class RemoveDuplicateCharacterString {
         return ans.toString();
     }
     public static void main(String[] args) {
-        String s = "ankita";
+        String s = "Subhajit";
         s=s.toLowerCase();
         System.out.println(removeDuplicates(s));
     }
