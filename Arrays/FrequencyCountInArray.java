@@ -4,9 +4,10 @@ import java.util.Arrays;
 
 public class FrequencyCountInArray {
     public static void checkFrequency(int arr[]) {
+        int n=arr.length;
         Arrays.sort(arr);
         int count = 1; // Variable to track the current element's frequency
-        for (int i = 1; i < arr.length; i++){ // Traverse the sorted array and count the frequency of each element
+        for (int i = 1; i < n; i++){ // Traverse the sorted array and count the frequency of each element
             if (arr[i] == arr[i - 1]) {
                 count++;
             }else {
