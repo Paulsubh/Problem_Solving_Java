@@ -14,7 +14,7 @@ public class RemoveDuplicateElements {
         return i+1;
     }
     public static void main(String[] args) {
-        int arr[]={1,1,3,3,3,2,2,4};
+        int arr[]={2,2,1};
         int  k=RemoveDup(arr);
         for(int i=0;i<k;i++){
             System.out.print(arr[i]+" ");
