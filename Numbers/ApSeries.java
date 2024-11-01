@@ -1,11 +1,10 @@
 public class ApSeries {
     public static double APcheck(double a, double d, int n) {
-        double first = a, differnce = d;
-        int NumOfTerms = n;
+        double first = a, difference = d;
         double sum = 0.0;
         for (int i = 1; i <= n; i++) {
             sum += first;
-            first += differnce;
+            first += difference;
 
         }
         return sum;
